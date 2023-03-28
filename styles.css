@@ -1,0 +1,39 @@
+
+
+
+hr{
+        border: dotted #B9F3FC 6px;
+        border-bottom: none ;
+        width: 4%;
+        margin: 100px auto;
+    }
+        
+
+
+
+    
+
+
+a{
+    color: #645CBB;
+    font-family:'Montserrat';
+    margin:10px 20px;
+    text-decoration: none;
+  
+}
+
+
+ a:hover
+{
+ color:#EAF6F6;
+}
+
+.skill-row{
+
+    margin:100px auto 100px auto;
+    width:50%;
+    text-align: left;
+    line-height: 2;
+    
+}
+  
