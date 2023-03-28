@@ -1,0 +1,271 @@
+body {
+  font-family: "Montserrat";
+  
+
+
+}
+
+#title {
+  background-image: url(../images/background.png);
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+/*Tags*/
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/**Navigation-Code**/
+.navbar {
+  padding-bottom:0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: red;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: red;
+}
+
+/** Kontakt-Button
+
+.dropdown-item {
+  color: #ef8172;
+}
+**/
+.kontakt-button {
+  margin: 5% 3% 5% 0;
+}
+
+/**Title-Image**/
+.title-image {
+  width: 100%;
+  text-align: center;
+  padding-top: 20%;
+  
+  
+}
+
+/**ID features**/
+#features {
+  padding: 7%;
+}
+
+/**Icon Styling**/
+.chech-sign {
+  text-align: center;
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.text-content {
+  color: #8f8f8f;
+}
+
+.chech-sign:hover {
+  color: #ff4c63;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+#press {
+  background-color: black;
+  text-align: center;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#carouselExampleRide {
+  padding: 7% 15%;
+}
+
+/**Kampfsportarten**/
+#kampf-sportarten {
+  padding: 7% 15%;
+}
+
+.kick-boxen {
+  width: 100%;
+  text-align: left;
+}
+
+#sportarten-boxen {
+  padding: 7% 15%;
+}
+
+.boxen {
+  width: 100%;
+  padding: 2px;
+}
+/**Kindersportarten**/
+.kids-sport {
+  width: 70%;
+}
+
+#kidssport {
+  padding: 7% 15%;
+}
+/**Damensport**/
+.damen-sport {
+  width: 100%;
+}
+
+#frauen-sport {
+  padding: 7% 15%;
+  background-color: black;
+  color: white;
+}
+
+.center {
+  text-align: center;
+  text-align: justify;
+}
+/**Button nach oben**/
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+/**Fitnessbereich**/
+#Fitnessbereich
+{
+  padding: 7% 15%;
+  background-color: black;
+  color: white;
+}
+
+.fitness-image{
+  width: 100%;
+}
+.fitness-equipment{
+  width: 100%;
+  padding-bottom: 7%;
+  text-align: center;
+
+}
+/**Kontakt**/
+.infos{
+  color: white;
+  margin-top: 3%;
+
+  
+}
+/**Kontakt**/
+#kontakt-button{
+  background-image: url(../images/background.png);
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+
+  form { max-width:420px; margin:50px auto; }
+  
+  .feedback-input {
+    color:white;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+  }
+  
+  [type="submit"] {
+    font-family: 'Montserrat';
+    width: 100%;
+    background:#CC6666;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  [type="submit"]:hover { background:#CC4949; }
+
+/**Footer**/
+  .white-section{
+    text-align: center;
+    background-color: black;
+    color: white;
+   
+  }
+
+  .footer-link{
+  color:red;
+  font-family:'Montserrat';
+  margin:10px 20px;
+  text-decoration: none;
+
+}
+.footer-link:hover{
+
+  color: white;
+}
