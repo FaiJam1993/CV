@@ -1,7 +1,7 @@
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
-// Array of image URLs
+//  Ein Array von image URLs
 var imageUrls = [
   "images/dice1.png",
   "images/dice2.png",
@@ -11,11 +11,11 @@ var imageUrls = [
   "images/dice6.png",
 ];
 
-// Get the random image URL based on the random number generated
+// Hier wird anhand von wirklüchen Nummer eine Reihenfolge von URL erzeugt.
 var randomImageUrl = imageUrls[randomNumber1 - 1];
 var randomImageUrl2 = imageUrls[randomNumber2 - 1];
 
-// Set the "src" attribute of the first HTML element with class "img1" to the random image URL
+// Setze bei Eintritt die ersten zwei Images als Eintritts URL
 document.querySelector(".img1").setAttribute("src", randomImageUrl);
 document.querySelector(".img2").setAttribute("src", randomImageUrl2);
 //If Condition, who is the winning party.
