@@ -269,3 +269,32 @@ h3 {
 
   color: white;
 }
+@media (max-width: 768px) {
+  /* styles for small screens */
+  .navbar-brand img {
+    width: 200px;
+    height: auto;
+  }
+  .title-image {
+    width: 100%;
+    height: auto;
+  }
+  .kampfsportarten {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 769px) {
+  /* styles for large screens */
+  .navbar-brand img {
+    width: 250px;
+    height: 150px;
+  }
+  .title-image {
+    width: 60%;
+    height: auto;
+  }
+  .kampfsportarten {
+    margin-top: 100px;
+  }
+}
