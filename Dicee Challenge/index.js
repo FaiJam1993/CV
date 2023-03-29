@@ -20,7 +20,7 @@ document.querySelector(".img1").setAttribute("src", randomImageUrl);
 document.querySelector(".img2").setAttribute("src", randomImageUrl2);
 //If Condition, who is the winning party.
 if (randomNumber1 === randomNumber2) {
-  document.querySelector("h1").innerHTML = "🚩Unenschieden🚩";
+  document.querySelector("h1").innerHTML = "Unenschieden!";
 } else if (randomNumber1 > randomNumber2) {
   document.querySelector("h1").innerHTML = "🚩Player 1 Wins!";
 } else {
