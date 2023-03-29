@@ -1,5 +1,8 @@
 
+h1{
 
+    color:#645CBB;
+}
 
 hr{
         border: dotted #B9F3FC 6px;
@@ -25,7 +28,7 @@ a{
 
  a:hover
 {
- color:#EAF6F6;
+ color:#B9F3FC;
 }
 
 .skill-row{
